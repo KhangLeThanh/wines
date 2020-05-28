@@ -66,7 +66,7 @@ export default function WinesDetails({detail,cid,handleClose}){
                                     <Typography variant="body2"  style={{display:'block',color:'#929292', marginBottom:'5px', fontWeight:'500'}}>
                                         Score:
                                     </Typography>
-                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700'}}>
+                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700', fontSize:'1.2rem'}}>
                                         {detail.score}
                                     </Typography>                                
                                 </DialogContent>
@@ -76,7 +76,7 @@ export default function WinesDetails({detail,cid,handleClose}){
                                     <Typography variant="body2"  style={{display:'block',color:'#929292', marginBottom:'5px', fontWeight:'500'}}>
                                         Grape:
                                     </Typography>
-                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700'}}>
+                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700', fontSize:'1.2rem'}}>
                                         {detail.grape}
                                     </Typography>                             
                                 </DialogContent>
@@ -87,7 +87,7 @@ export default function WinesDetails({detail,cid,handleClose}){
                                     <Typography variant="body2"  style={{display:'block',color:'#929292', marginBottom:'5px', fontWeight:'500'}}>
                                         Country:
                                     </Typography>
-                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700'}}>
+                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700', fontSize:'1.2rem'}}>
                                         {detail.country}
                                     </Typography>                                
                                 </DialogContent>
@@ -97,7 +97,7 @@ export default function WinesDetails({detail,cid,handleClose}){
                                     <Typography variant="body2"  style={{display:'block',color:'#929292', marginBottom:'5px', fontWeight:'500'}}>
                                         Year:
                                     </Typography>
-                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700'}}>
+                                    <Typography variant="h5" component="h5" style={{display:'block', fontWeight:'700', fontSize:'1.2rem'}}>
                                         {detail.year}
                                     </Typography>                           
                                 </DialogContent>
