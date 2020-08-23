@@ -1,3 +1,9 @@
+## Description
+
+Creating a web application for displaying the wines list. User can click "See more" to see more wines list. If user wants to see a detail of wine, user can click the name of wine. Then there is a popup wine's detail.
+
+Link: http://khanglethanh.github.io/wines
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
